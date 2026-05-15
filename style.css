@@ -107,14 +107,14 @@ input[type="text"].error {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #777;
+  color: #3f0505;
   margin-bottom: 6px;
 }
 
 .formula-text {
   font-family: 'Courier New', monospace;
   font-size: 13px;
-  color: #555;
+  color:#2f0606;
   line-height: 1.8;
   word-break: break-all;
 }
