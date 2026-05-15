@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bin2Dec</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bin2Dec</h1>
+    <p class="subtitle">Convert binary numbers to decimal</p>
+
+    <label for="binaryInput">Enter binary number</label>
+    <input
+      type="text"
+      id="binaryInput"
+      placeholder="e.g. 10110101"
+      maxlength="32"
+      autocomplete="off"
+    />
+
+    <p class="error" id="errorMsg"></p>
+
+    <div class="result-box">
+      <span class="result-label">Decimal result</span>
+      <span class="result-number" id="resultNumber">—</span>
+    </div>
+
+    <div class="formula-box" id="formulaBox">
+      <span class="formula-label">How it's calculated</span>
+      <p class="formula-text" id="formulaText"></p>
+    </div>
+
+    <button id="clearBtn">Clear</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
